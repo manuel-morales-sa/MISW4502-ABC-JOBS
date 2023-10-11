@@ -3,10 +3,10 @@
     <style name="Theme.Vinilos" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/black_text</item>
         <item name="colorPrimaryVariant">@color/Navbar_font</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/ToolsBar</item>
         <item name="colorSecondary">@color/gray_fount</item>
-        <item name="colorSecondaryVariant">@color/white_text</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/ToolsBar</item>
+        <item name="colorOnSecondary">@color/ToolsBar</item>
         <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
     </style>
 </resources>
