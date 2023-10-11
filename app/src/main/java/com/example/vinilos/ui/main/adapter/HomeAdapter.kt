@@ -43,6 +43,7 @@ class HomeAdapter (
 
     override fun onBindViewHolder(holder: DataViewHolder, position: Int) {
         holder.bindPar.root.setOnClickListener {
+            //Log.d("hola"," mundo")
             val intent = Intent(context, DetailAlbumActivity::class.java).apply {
                 putExtra(ID, albums[position].id.toString())
                 putExtra(NAME, albums[position].name)
