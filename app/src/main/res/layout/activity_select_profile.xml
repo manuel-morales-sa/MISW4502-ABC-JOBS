@@ -26,11 +26,14 @@
       app:layout_constraintVertical_bias="0.104" />
 
   <ImageView
-      android:id="@+id/dice_image"
+      android:id="@+id/aspirant_profile_icon"
       android:layout_width="200dp"
       android:layout_height="200dp"
+      android:background="?android:attr/selectableItemBackground"
+      android:minWidth="48dp"
+      android:minHeight="48dp"
       android:layout_gravity="center_horizontal"
-      android:background="@drawable/icon_profile_candidate"
+      android:src="@drawable/icon_profile_candidate"
       android:contentDescription="@string/logo"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -40,12 +43,10 @@
       app:layout_constraintVertical_bias="0.122" />
 
   <TextView
-      android:id="@+id/sign_up_btn"
+      android:id="@+id/return_login_btn"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:background="?android:attr/selectableItemBackground"
-      android:clickable="true"
-      android:focusable="true"
       android:minWidth="48dp"
       android:minHeight="48dp"
       android:text="Login"
@@ -87,11 +88,14 @@
       app:layout_constraintVertical_bias="0.526" />
 
   <ImageView
-      android:id="@+id/dice_image_build"
+      android:id="@+id/build_profile_icon"
       android:layout_width="200dp"
       android:layout_height="200dp"
+      android:background="?android:attr/selectableItemBackground"
+      android:minWidth="48dp"
+      android:minHeight="48dp"
       android:layout_gravity="center_horizontal"
-      android:background="@drawable/logo_build_profile"
+      android:src="@drawable/logo_build_profile"
       android:contentDescription="@string/logo"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -118,6 +122,6 @@
         android:layout_height="wrap_content"
         app:barrierDirection="left" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
