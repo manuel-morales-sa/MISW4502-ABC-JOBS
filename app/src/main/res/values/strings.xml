@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">ABC Jobs</string>
     <string name="nav_name">ABC Jobs</string>
+    <string name="app_home_label">Welcome to </string>
+    <string name="app_home_label_abc">ABC </string>
+    <string name="app_home_label_jobs">JOBS </string>
     <string name="album_label">Album:</string>
     <string name="artist_label">Artista:</string>
     <string name="date_label">Fecha de lanzamiento:</string>
@@ -14,12 +17,12 @@
     <string name="detail_album_description_image">Imagen del detalle del album</string>
     <string name="detail_artist_description_image">Imagen del detalle del artista</string>
     <string name="item_layout_description_image">Imagen del artista,album o coleccionista</string>
-    <string name="menu_album__label">Albums</string>
-    <string name="menu_artist_label">Artists</string>
+    <string name="menu_aspirant_label">Aspirants</string>
+    <string name="menu_project_label">Projects</string>
+    <string name="menu_interview_label">Interviews</string>
     <string name="logo">Logo</string>
     <string name="collector">Coleccionistas</string>
     <string name="login">Login</string>
-    <string name="menu_collector_label">Collectors</string>
     <string name="collector_label">Coleccionista:</string>
     <string name="favorite_performers">Interpretes favoritos:</string>
     <string name="comments">Comentarios:</string>

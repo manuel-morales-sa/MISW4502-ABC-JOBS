@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.signUpBtn.setOnClickListener {
+            val intent = Intent(this, SelectProfileActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
     /*private lateinit var mainViewModel: MainViewModel
